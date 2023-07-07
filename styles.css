@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(58, 172, 238);
+
+    display: flex;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999px;
+
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5); 
+
+    padding-bottom: 20px;
+}
+nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#poke-carts{
+    height: 80vh;
+    padding-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #42caec; 
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    color: rgb(0, 0, 0);
+    background-color: #f1e205;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
